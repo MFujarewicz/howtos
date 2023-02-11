@@ -1,0 +1,10 @@
+using diskpart on windows:
+
+list disk
+list volume
+
+select disk ?
+select volume ?
+
+clean 
+format fs=ntfs quick
