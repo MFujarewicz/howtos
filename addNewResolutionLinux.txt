@@ -1,0 +1,9 @@
+-- generate Modeline for desired resolution and refresh rate (default refresh is 60)
+cvt 3440 1440 50
+
+--check display neme with 
+xrandr
+
+--add new mode and assing it to display
+sudo xrandr --newmode "3440x1440_50.00"  419.50  3440 3696 4064 4688  1440 1443 1453 1493 -hsync +vsync
+sudo xrandr --addmode HDMI-1 "3440x1440_50.00"
