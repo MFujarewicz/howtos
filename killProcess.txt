@@ -1,0 +1,2 @@
+kill (PID)
+sudo kill -9 (PID) 

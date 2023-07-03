@@ -1,0 +1,3 @@
+show info for (PID):
+ps -aux | grep (PID) 
+
