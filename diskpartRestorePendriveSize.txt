@@ -7,4 +7,6 @@ select disk ?
 select volume ?
 
 clean 
-format fs=ntfs quick
+
+create partition primary
+format fs=ntfs quick label="USB Drive"
